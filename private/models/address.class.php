@@ -1,6 +1,6 @@
 <?php
 
-class SuperAdmin {
+class Address {
   static protected $database;
 
   static public function set_database($database) {

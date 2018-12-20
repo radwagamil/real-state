@@ -1,6 +1,6 @@
 <?php
 
-class SuperAdmin {
+class Type {
   static protected $database;
 
   static public function set_database($database) {
