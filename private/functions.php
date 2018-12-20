@@ -15,4 +15,5 @@ function is_blank($value) {
   header("Location: " . $location);
   exit;
 }
+//echo "here";
  ?>
