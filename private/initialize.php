@@ -1,5 +1,5 @@
 <?php
-
+require_once("functions.class.php");
 require_once("database_functions.php");
 require_once("models/admin.class.php");
 require_once("models/service.class.php");
