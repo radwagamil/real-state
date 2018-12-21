@@ -14,6 +14,7 @@ class Admin {
   private $hashed_password;
   private $created_at;
   private $updated_at;
+  private $is_super;
 
 
   public function verify_password($password) {
@@ -63,6 +64,11 @@ class Admin {
     public function setUpdatedAt($updated_at){
       $this->updated_at = $updated_at;
     }
-
-
+	public function setIsSuper($is_super){
+      $this->is_super = $is_super;
+    }
+	
+	public function getIsSuper(){
+      return $this->is_super;
+    }
 }
